@@ -1,3 +1,5 @@
+#!/bin/sh
+
 APP_LOCATION=$1
 
 cat  << EOF
