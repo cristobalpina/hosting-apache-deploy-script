@@ -18,3 +18,4 @@ echo "home deploy LSSSSS"
 echo $(cd /home/deploy/ && ls)
 echo "home deploy app lsssss"
 echo $(cd /home/deploy/app && ls)
+echo $APP_LOCATION
