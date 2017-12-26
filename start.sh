@@ -12,4 +12,8 @@ cp /home/deploy/script/apache2.conf /etc/apache2/apache2.conf
 echo ""
 echo "Using new Virtual Host file"
 echo ""
+echo "App Location: $APP_LOCATION"
 cp /home/deploy/script/000-default.conf /etc/apache2/sites-available/000-default.conf
+
+
+echo $(cat /etc/apache2/sites-available/000-default.conf)
