@@ -11,6 +11,6 @@ apt-get -y install apache2
 #Define servername to avoid warning msg
 echo "ServerName localhost" >> /etc/apache2/apache2.conf
 
-cp index.html /var/www/html/index.html
+cp /home/deploy/script/index.html /var/www/html/index.html
 
 systemctl restart apache2
