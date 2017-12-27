@@ -19,4 +19,4 @@ echo ""
 echo "Setting Root File"
 echo "Root Index: $DIRECTORY_INDEX"
 echo ""
-sh /home/deploy/dir.conf.sh $DIRECTORY_INDEX > /etc/apache2/mods-enabled/dir.conf
+sh /home/deploy/script/dir.conf.sh $DIRECTORY_INDEX > /etc/apache2/mods-enabled/dir.conf
