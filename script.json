@@ -8,6 +8,11 @@
     },
     {
       "key": "DIRECTORY_INDEX",
+      "description": "The name of your main file",
+      "defaultValue": "index.html"
+    },
+    {
+      "key": "ROOT_URL",
       "description": "The URL that clients will be accessing your application with",
       "defaultValue": "http://${app:name}.orionapps.org"
     }
